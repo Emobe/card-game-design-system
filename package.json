@@ -18,9 +18,9 @@
     "vue-template-compiler": "^2.6.10"
   },
   "dependencies": {
-    "@cgds/card": "0.0.2",
-    "@cgds/poker-table": "0.0.1",
-    "@cgds/table": "0.0.2",
+    "@cgds/card": "^0.0.0",
+    "@cgds/poker-table": "^0.0.0",
+    "@cgds/table": "^0.0.0",
     "croupier": "^1.0.1",
     "vue": "^2.6.10"
   },

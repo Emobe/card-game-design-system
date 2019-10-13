@@ -9,8 +9,3 @@ export const story = () => ({
   components: { CTable },
   template: "<CTable />"
 });
-
-export const withPokerCards = () => ({
-  components: { CTable, CCard },
-  template: `<CTable layout="poker"></CTable>`
-});

@@ -1,12 +1,26 @@
 <template>
   <div :class="`card ${suit}`">
-    <span class="suit">{{suit}}</span>
+    <span class="suit">{{suitIcon}}</span>
     <span>{{rank}}</span>
   </div>
 </template>
 <script>
 export default {
   name: "PCard",
+  computed: {
+    suitIcon() {
+      switch (this.suit) {
+        case "clubs":
+          return "♣";
+        case "diamonds":
+          return "♦";
+        case "spades":
+          return "♠";
+        case "hearts":
+          return "♥";
+      }
+    }
+  },
   props: {
     suit: {
       type: String,
@@ -45,7 +59,9 @@ export default {
   height: 200px;
   border: 1px solid black;
   color: white;
-
+  .suit {
+    font-size: 30px;
+  }
   &.clubs {
     background-color: green;
   }
