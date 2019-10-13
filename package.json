@@ -1,0 +1,33 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@storybook/addon-actions": "^5.2.3",
+    "@storybook/addon-links": "^5.2.3",
+    "@storybook/addons": "^5.2.3",
+    "@storybook/vue": "^5.2.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-vue": "^2.0.2",
+    "css-loader": "^3.2.0",
+    "lerna": "^3.17.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "vue-loader": "^15.7.1",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "dependencies": {
+    "@cgds/card": "0.0.2",
+    "@cgds/poker-table": "0.0.1",
+    "@cgds/table": "0.0.2",
+    "croupier": "^1.0.1",
+    "vue": "^2.6.10"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6006 --ci",
+    "build-storybook": "build-storybook",
+    "restart-git": "rm .git -rf && git init && git remote add origin https://github.com/emobe/card-game-design-system && git add . && git commit -m init && git push origin master -f",
+    "unpublish-all": "npm unpublish @cgds/card --force &&npm unpublish @cgds/poker-table --force &&npm unpublish @cgds/table --force"
+  }
+}
