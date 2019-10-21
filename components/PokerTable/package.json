@@ -1,0 +1,25 @@
+{
+  "name": "@cgds/poker-table",
+  "version": "0.0.2",
+  "description": "> TODO: description",
+  "author": "Anthony Shuker <anthony.shuker@fleetondemand.com>",
+  "homepage": "https://github.com/emobe/card-game-design-system#readme",
+  "license": "ISC",
+  "main": "index.vue",
+  "publishConfig": {
+    "registry": "http://localhost:4873/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emobe/card-game-design-system.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/emobe/card-game-design-system/issues"
+  },
+  "dependencies": {
+    "@cgds/card": "^0.0.1"
+  }
+}

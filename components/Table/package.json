@@ -1,0 +1,15 @@
+{
+  "name": "@cgds/table",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "Anthony Shuker <anthony@emobe.uk￼>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "index.vue",
+  "publishConfig": {
+    "registry": "http://localhost:4873/"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}
